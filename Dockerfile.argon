@@ -1,0 +1,8 @@
+FROM node:argon
+WORKDIR /app
+COPY app/ .
+WORKDIR /app/redux-devtools
+RUN npm install
+WORKDIR /app/redux-devtools/examples/todomvc
+Run npm install
+EXPOSE 3000

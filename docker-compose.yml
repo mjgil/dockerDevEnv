@@ -1,0 +1,7 @@
+app:
+  image: mjgil32/rdtt1
+  command: sh -c 'npm start'
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./app:/app
